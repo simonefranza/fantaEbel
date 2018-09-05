@@ -1,0 +1,101 @@
+/* ------- FONTS --------- */
+
+@font-face {
+font-family: "Bavro";
+src: url("./fonts/Bavro/bavro-regular-webfont.eot");
+src: url("./fonts/Bavro/bavro-regular-webfont.woff") format("woff"),
+url("./fonts/Bavro/bavro-regular-webfont.otf") format("opentype"),
+url("./fonts/Bavro/bavro-regular-webfont.svg") format("svg");
+}
+
+@font-face {
+font-family: "Alcubierre";
+src: url("./fonts/Alcubierre/alcubierre-webfont.eot");
+src: url("./fonts/Alcubierre/alcubierre-webfont.woff") format("woff"),
+url("./fonts/Alcubierre/alcubierre-webfont.otf") format("opentype"),
+url("./fonts/Alcubierre/alcubierre-webfont.svg") format("svg");
+}
+
+
+/* -------- BODY ------- */
+
+body {
+  background-color: #003366;
+
+}
+
+/* ------- HEADER -------- */
+
+header h1 {
+  margin: 0;
+  padding: 50px 0;
+  font-size: 44px;
+  text-align: center;
+
+  font-family: 'alcubierre', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+header img {
+  margin: 0 10px;
+}
+
+header a:hover{
+  text-decoration: none;
+  color:white;
+}
+
+header a{
+  color: white;
+}
+
+header {
+  position: relative;
+  height: 5%;
+  background-image: linear-gradient(#a3d2da, #0086b0);
+  border-bottom-left-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+}
+
+/* ------  NAVBAR ------ */
+
+.navBar {
+  font-family: 'alcubierre', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
+  position: relative;
+  height: 100px;
+  background:transparent;
+  border-bottom-left-radius: 100% 50%;
+  border-bottom-right-radius: 100% 50%;
+}
+
+.navBar ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+
+.navBar li {
+  float:left;
+}
+
+.navBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* -------- CONTENT ---------- */
+
+.content {
+  height: 300px;
+  position: relative;
+    height: 300px;
+    background-image: linear-gradient(#fff, #bbb);
+    clip-path: ellipse(900px 90px at 50% 10%);
+}
