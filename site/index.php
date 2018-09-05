@@ -46,7 +46,7 @@
   <div id="body-content">
     <header id="logoHeader">
       <a href="./index.php">
-        <h1><img style="height:140px" src="./images/logo.png" alt="logo" float="left">FantaEBEL</h1>
+        <h1><img style="height:140px" src="./images/logo definitivo.png" alt="logo" float="left">FantaEBEL</h1>
       </a>
     </header>
     <div class="navBar">
