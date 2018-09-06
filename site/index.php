@@ -17,15 +17,14 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+  <script src="./scripts/welcomeOverlay.js"></script>
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/homepagestyle.css">
 
   
 
   <script>
-    function off() {
-    
+    function overlayOff() {
     document.getElementById("body-content").style.filter ="blur(0)";
   }
 </script>
@@ -39,14 +38,14 @@
     </script>
 </head>
 
-<body>
+<body onload="checkWelcome()">
 
   <div id="overlay" class="over">
     <div id="text">
 
-      <img id="join-logo" src="./images/logo definitivo.png" alt="logo">
+      <img id="join-logo" src="./images/logo.png" alt="logo">
       <p id="join-text">The power is in your hands with FantaEBEL,<br/>form your team and become legend today.</p>
-      <button id="join-button" type="button" class="btn btn-primary btn-lg join" onclick="off()">JOIN NOW!</button>
+      <button id="join-button" type="button" class="btn btn-primary btn-lg join" onclick="overlayOff()">JOIN NOW!</button>
     </div>
   </div>
 
@@ -57,7 +56,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="d-flex flex-grow-1">
                 <span class="w-100 d-lg-none d-block"></span>
-                <img src="images/logo definitivo.png" alt="logo" height="64px">
+                <img src="images/logo.png" alt="logo" height="64px">
                 <a class="navbar-brand d-none d-lg-inline-block" href="#"><h1>FantaEbel</h1></a>
                     <div class="w-100 text-right">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
