@@ -36,7 +36,7 @@
   <div id="overlay">
     <div id="text">
 
-      <img id="join-logo" src="./images/logo definitivo.png" alt="logo">
+      <img id="join-logo" src="./images/logo.png" alt="logo">
       <p id="join-text">The power is in your hands with FantaEBEL,<br/>form your team and become legend today.</p>
       <button id="join-button" type="button" class="btn btn-primary btn-lg" onclick="off()">JOIN NOW!</button>
     </div>
@@ -46,7 +46,7 @@
   <div id="body-content">
     <header id="logoHeader">
       <a href="./index.php">
-        <h1><img style="height:140px" src="./images/logo definitivo.png" alt="logo" float="left">FantaEBEL</h1>
+        <h1><img style="height:140px" src="./images/logo.png" alt="logo" float="left">FantaEBEL</h1>
       </a>
     </header>
     <div class="navBar">
