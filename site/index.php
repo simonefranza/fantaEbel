@@ -17,28 +17,21 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+  <script src="./scripts/welcomeOverlay.js"></script>
   <link rel="stylesheet" href="./css/styles.css">
-
   <link rel="icon" href="./images/logo.png">
   <title>Fanta EBEL</title>
 
-  <script>
-  function off() {
-    document.getElementById("overlay").style.display = "none";
-    document.getElementById("body-content").style.filter ="blur(0)";
-  }
-</script>
 </head>
 
-<body>
+<body onload="checkWelcome()">
 
   <div id="overlay">
     <div id="text">
 
       <img id="join-logo" src="./images/logo.png" alt="logo">
       <p id="join-text">The power is in your hands with FantaEBEL,<br/>form your team and become legend today.</p>
-      <button id="join-button" type="button" class="btn btn-primary btn-lg" onclick="off()">JOIN NOW!</button>
+      <button id="join-button" type="button" class="btn btn-primary btn-lg" onclick="overlayOff()">JOIN NOW!</button>
     </div>
   </div>
 
