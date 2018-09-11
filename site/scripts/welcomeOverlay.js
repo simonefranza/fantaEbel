@@ -1,12 +1,3 @@
-function hideJoin() {
-  document.getElementById("overlay").style.display = "none";
-  document.getElementById("body-content").style.filter ="blur(0)";
-  document.getElementById("body-content").style.webkitFilter ="blur(0)";
-  document.getElementById("body-content").style.mozFilter ="blur(0)";
-  document.getElementById("body-content").style.oFilter ="blur(0)";
-  document.getElementById("body-content").style.msFilter ="blur(0)";
-}
-
 function showJoin() {
   document.getElementById("overlay").style.display = "block";
   document.getElementById("body-content").style.filter ="blur(10px)";
@@ -18,17 +9,19 @@ function showJoin() {
 
 function checkWelcome() {
   if (typeof(Storage) !== "undefined") {
-    if (localStorage.getItem("hideWelcome") == "true") {
-      hideJoin();
-    }
-    else{
+    if (localStorage.getItem("hideWelcome") != "true") {
       showJoin();
     }
   }
 }
 
 function overlayOff() {
-  hideJoin();
+  $("#overlay").fadeOut(500);
+  document.getElementById("body-content").style.filter ="blur(0)";
+  /*document.getElementById("body-content").style.webkitFilter ="blur(0)";
+  document.getElementById("body-content").style.mozFilter ="blur(0)";
+  document.getElementById("body-content").style.oFilter ="blur(0)";
+  document.getElementById("body-content").style.msFilter ="blur(0)";*/
   if (typeof(Storage) !== "undefined") {
     localStorage.setItem("hideWelcome", "true");
   }
