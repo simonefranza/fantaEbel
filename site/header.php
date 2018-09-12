@@ -109,7 +109,7 @@
               <li class="nav-item">
                 <div class="dropdown">
                   <button class="dropbtn">
-                    <a href="#" class="nav-link m-2 menu-item">Accedi</a>
+                    <a href="login.php" class="nav-link m-2 menu-item">Accedi</a>
                   </button>
                   <div class="dropdown-content">
                   </div>
