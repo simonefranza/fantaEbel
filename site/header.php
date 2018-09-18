@@ -125,26 +125,4 @@
           </div>
         </nav>
         <!-- Navbar -->
-        <svg id="svgNavbar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150" preserveAspectRatio="none">
-          <polygon class="svg--sm" fill="#7cb0ea" points="0,100 12,0 30,100 35,50 43,140 65,21 90,130 100,75 100,150 0,150"></polygon>
-          <polygon class="svg--lg" fill="#48679d" points="0,150 7,70 13,100 23,30 35,95 50,0 65,100 67,85 71,110 78,30 84,100 90,70 100,150 0,150"></polygon>
-          <polygon class="svg--lg" fill="#405f95" points="0,150 11,150 7,70 13,100 23,30 11,150 43,150 43,145 35,95 50,0 43,145 43,150 68,150 67,130 65,100 67,85 67,130 68,150 78,150 71,110 78,30 78,150 88,150 88,140 84,100 90,70 88,140 88,150 0,150"></polygon>
-        </svg>
-
-      </div>
-
-      <!-- RiflessoMontagne, quando attivo, commentare TaglioDiagonale -->
-      <div style="transform: scale(1,0.7);">
-        <svg style="transform-origin: center; transform: scale(1,-1);" id="svgContentRiflesso" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150" preserveAspectRatio="none">
-          <polygon class="svg--sm" fill="#7cb0ea" points="0,100 12,0 30,100 35,50 43,140 65,21 90,100 100,75 100,150 0,150"></polygon>
-          <polygon class="svg--lg" fill="#48679d" points="0,150 7,70 13,100 23,30 35,95 50,0 65,100 67,85 71,110 78,30 84,100 90,70 100,150 0,150"></polygon>
-          <polygon class="svg--lg" fill="#405f95" points="0,150 11,150 7,70 13,100 23,30 11,150 43,150 43,145 35,95 50,0 43,145 43,150 68,150 67,130 65,100 67,85 67,130 68,150 78,150 71,110 78,30 78,150 88,150 88,140 84,100 90,70 88,140 88,150 0,150"></polygon>
-        </svg>
-      </div>
-      <!-- TaglioDiagonale, quando attivo, commentare RiflessoMontagne -->
-      <!--<svg id="svgContent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-      <polygon fill="#48679d" points="0,0 100,0 100,76 0,20"></polygon>
-      <polygon fill="#405f95" points="0,16 100,66 100,75 0,25"></polygon>
-      <polygon fill="#314465" points="0,22 100,72 100,78 0,28"></polygon>
-      <polygon fill="#27364d" points="0,26 100,76 100,79 0,29"></polygon>
-    </svg>-->
+</div>

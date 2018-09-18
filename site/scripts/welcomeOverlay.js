@@ -26,3 +26,16 @@ function overlayOff() {
     localStorage.setItem("hideWelcome", "true");
   }
 }
+
+function discoverActivate() {
+  $('#discoverSlider').toggleClass('myClose');
+  document.getElementById("svgNavbar").style.background = "hsl(1,100%,100%)";
+  $('#stdFooter').hide();
+}
+
+function signupActivate() {
+  $('#signupSlider').toggleClass('myClose');
+
+  document.getElementById("svgNavbar").style.background = "hsl(1,100%,100%)";
+  $('#stdFooter').hide();
+}
